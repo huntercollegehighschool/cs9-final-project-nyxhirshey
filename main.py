@@ -1,10 +1,10 @@
 """
-Name(s): Catinca Balasov and Nyx Hirshbein
+Names: Catinca Balasov and Nyx Hirshbein
 Name of Project: The Adventure of the Labyrinth
 """
 
 def start():
-  print("For years, you have been peparing for this journey. At last, you find yourself before the fabled labyrinth - it towers menacingly, made of a rich black stone. Three paths lie ahead of you - one, a barren and empty desert, one that goes into a rocky canyon, and one a foggy, muddy terrain. Which path do you choose?")
+  print("For years, you have been preparing for this journey. At last, you find yourself before the fabled labyrinth - it towers menacingly, made of a rich black stone. Three paths lie ahead of you - one, a barren and empty desert, one that goes into a rocky canyon, and one a foggy, muddy terrain. Which path do you choose?")
   choice = input("Enter 1 for path1, 2 for path2, or 3 for path3.")
   if choice == "1":
     path1()
@@ -111,7 +111,7 @@ def v():
   
 
 def path3():
-  print("You make your way through the swamp with great difficulty. Your feet through the boggy water, the farther you walk, the harder it is to move. You are almost paralyzaed, and you are completely hopeless. Do you: go back the way you came, stop where you are, or continue going?")
+  print("You make your way through the swamp with great difficulty. Your feet dragging through the boggy water, the farther you walk, the harder it is to move. You are almost paralyzed, and you are completely hopeless. Do you: go back the way you came, stop where you are, or continue going?")
   choice = input("Enter g to leave, h to stop, or i to continue.")
   if choice == "g":
     g()
